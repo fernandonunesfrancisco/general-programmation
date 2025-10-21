@@ -16,7 +16,49 @@ def submenu_alunos():
         print("[4] Voltar ao Menu Principal")
         opcao=input()
         if opcao=="1":
-            matricula=input("Insira a matrícula: ")
+            os.system("clr")
+            matricula=input("Insira a matrícula: ").strip()
+            if not validar_matricula(matricula):
+                print("Matrícula inválida!")
+                os.system("pause")
+                return
+            if matricula in alunos:
+                print("Matrícula já cadastrada.")
+                os.system("pause")
+                return
+            nome=input("Nome do Aluno: ")
+            if nome == "":
+                print("Nome inváldo")
+                os.system("pause")
+                return
+            alunos[matricula]={"nome": nome}
+            print("Aluno cadastrado.")
+            os.system("pause")
+        elif opcao =="2":
+            os.system("clr")
+            print("=== Lista de Alunos ===")
+            if len(alunos)==0:
+                print("Nenhum aluno cadastrado.")
+            else:
+                print("Matricula\tNome")
+                print("-"*40)
+                for mat, info in alunos.itens():
+                    print(f"{mat}\t{info['nome']}")
+            os.system("pause")
+        elif opcao =="3":
+            os.system("clr")
+            matricula=input("Informe a matrícula: ").strip()
+            if matricula in alunos:
+                print(f"Nome: {alunos[matricula]['nom']}")
+            else:
+                print("Aluno não encontrado.")
+            os.system("pause")
+        elif opcao =="4":
+            break
+        else:
+            print("Opção inválida.")
+            os.system("pause")
+
 
 
 def menu_principal():
