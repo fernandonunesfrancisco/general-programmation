@@ -1,4 +1,4 @@
-package agregation;
+package identity;
 
 public class Address {
     private String street;

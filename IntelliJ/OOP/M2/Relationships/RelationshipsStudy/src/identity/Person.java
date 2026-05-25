@@ -1,7 +1,5 @@
 package identity;
 
-import agregation.Address;
-
 public abstract class Person {
     private String fullName;
     private String birthDate;
@@ -35,5 +33,14 @@ public abstract class Person {
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "fullName='" + fullName + '\'' +
+                ", birthDate='" + birthDate + '\'' +
+                ", address=" + address +
+                '}';
     }
 }
