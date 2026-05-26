@@ -1,0 +1,1 @@
+remover ".teste" na extensão do main.exe

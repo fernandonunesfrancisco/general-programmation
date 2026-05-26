@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1763496086 source:c:\users\nando\documents\codeblocks (c++)\arquivos\quest4\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

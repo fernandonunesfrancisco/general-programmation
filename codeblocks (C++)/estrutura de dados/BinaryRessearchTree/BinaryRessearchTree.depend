@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1779223023 source:c:\users\nando\documents\codeblocks (c++)\estrutura de dados\binaryressearchtree\main.cpp
+	<iostream>
+	"BinaryRessearchTree.h"
+
+1779223035 c:\users\nando\documents\codeblocks (c++)\estrutura de dados\binaryressearchtree\binaryressearchtree.h
+	<iostream>
+

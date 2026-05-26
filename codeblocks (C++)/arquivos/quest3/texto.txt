@@ -1,0 +1,31 @@
+Linha 1: Este é um arquivo de texto para teste do programa em C++.
+Linha 2: Cada linha contém uma breve mensagem.
+Linha 3: O programa deve mostrar 20 linhas por vez.
+Linha 4: Após isso, deve esperar o ENTER do usuário.
+Linha 5: Este comportamento é comum em programas de terminal.
+Linha 6: Serve para não deixar o texto "passar rápido demais".
+Linha 7: A função getline() é usada para ler cada linha completa.
+Linha 8: A cada leitura, incrementa-se o contador de linhas.
+Linha 9: Quando o contador chega a 20, o programa pausa.
+Linha 10: Após o ENTER, ele continua do ponto onde parou.
+Linha 11: Essa lógica é útil em leitura de logs e relatórios.
+Linha 12: O usuário pode assim acompanhar o conteúdo com calma.
+Linha 13: O arquivo de entrada deve ser informado manualmente.
+Linha 14: Por exemplo: texto.txt
+Linha 15: E deve estar na mesma pasta do executável.
+Linha 16: Caso contrário, o programa exibirá erro de abertura.
+Linha 17: É possível usar caminhos absolutos também.
+Linha 18: Exemplo: C:\Usuarios\Fernando\Desktop\texto.txt
+Linha 19: Cada getline() lê até o caractere de quebra de linha.
+Linha 20: Após isso, o conteúdo da linha vai para a string.
+Linha 21: Agora estamos na linha 21, ou seja, deve pausar aqui.
+Linha 22: Após pressionar ENTER, a exibição continua normalmente.
+Linha 23: Isso confirma o funcionamento do controle de pausa.
+Linha 24: O programa usa cin.get() para esperar o ENTER.
+Linha 25: Também usa cin.ignore() para limpar o buffer anterior.
+Linha 26: Isso evita que o ENTER antigo atrapalhe a pausa.
+Linha 27: Este arquivo de texto serve apenas para testes.
+Linha 28: O conteúdo não tem importância prática.
+Linha 29: O importante é testar o comportamento do código.
+Linha 30: E verificar se a contagem de 20 linhas está correta.
+Linha 31: Fim do arquivo de teste.

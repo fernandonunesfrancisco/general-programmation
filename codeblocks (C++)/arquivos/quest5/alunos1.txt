@@ -1,0 +1,5 @@
+Maria Estruturas 7.5
+Joao Algoritmos 8.0
+Ana BancoDados 9.3
+Carlos Redes 6.8
+Beatriz Compiladores 8.9

@@ -1,0 +1,5 @@
+ola
+//isso eh um comentario de linha
+/*
+isso eh um comentario grande
+*/
