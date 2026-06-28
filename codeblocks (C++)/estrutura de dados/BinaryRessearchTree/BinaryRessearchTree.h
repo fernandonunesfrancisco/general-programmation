@@ -8,8 +8,8 @@ using namespace std;
 template<typename T>
 struct Node{
     T element;
-    Node *subTreeLeft;
-    Node *subTreeRight;
+    Node<T> *subTreeLeft;
+    Node<T> *subTreeRight;
 };
 
 template<typename T>
@@ -190,6 +190,26 @@ void show(BinaryRessearchTree<T> tree)
     showInOrder(tree.root);
 }
 
+template<typename T>
+int heightRecursive(Node<T>* node)
+{
+    int n=0;
+    if(node == NULL)
+        return n;
 
+    int leftHeight = heightRecursive(node->subTreeLeft);
+    int rightHeight = heightRecursive(node->subTreeRight);
+
+    if(leftHeight>rightHeight) n=leftHeight;
+    else n=rightHeight;
+
+    return 1 + n;
+}
+
+template<typename T>
+int height(BinaryRessearchTree<T>& tree)
+{
+    return heightRecursive(tree.root);
+}
 
 #endif // BINARYRESSEARCHTREE_H_INCLUDED
