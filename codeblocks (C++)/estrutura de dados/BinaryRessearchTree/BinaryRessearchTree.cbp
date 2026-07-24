@@ -35,7 +35,7 @@
 		<Unit filename="BinaryRessearchTree.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="main.cpp" />
+		<Unit filename="evenOddNumberSeparator.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
