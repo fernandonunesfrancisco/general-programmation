@@ -1,0 +1,24 @@
+TRABALHO M2 - PROGRAMACAO WEB (NODE.JS + EXPRESS)
+TEMA: DARK ACADEMIA COM INSPIRACAO NA ROMA ANTIGA
+
+COMO EXECUTAR
+1. Instale o Node.js pelo site https://nodejs.org/ se ainda nao estiver instalado.
+2. Abra o terminal nesta pasta (onde esta o package.json).
+3. Execute: npm install
+4. Depois execute: npm start
+5. Abra http://localhost:3000 no navegador.
+
+Para testar a biblioteca CSS, abra http://localhost:3000/teste-css.html.
+
+ARQUIVOS PRINCIPAIS
+- server.js: servidor feito com Node.js e Express.
+- public/index.html: formulario de cadastro, tabela e detalhamento.
+- public/app.js: validacao e interacoes da pagina.
+- public/tema.css: cores, fontes, tabela, campos e composicao visual.
+- public/teste-css.html: pagina separada para demonstrar os estilos.
+- public/images/: imagens decorativas usadas pelo tema.
+
+OBSERVACAO
+Os registros ficam na memoria do servidor. Ao parar ou reiniciar o servidor, os registros cadastrados sao apagados.
+
+A imagem da biblioteca foi fornecida pelo usuario. Antes de publicar o site publicamente, verifique se voce tem os direitos necessarios para reutiliza-la.

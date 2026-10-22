@@ -1,0 +1,20 @@
+TRABALHO M2 - PROGRAMACAO WEB (NODE.JS + EXPRESS)
+
+COMO EXECUTAR
+1. Instale o Node.js pelo site https://nodejs.org/ se ainda nao estiver instalado.
+2. Abra o terminal nesta pasta (onde esta o package.json).
+3. Execute: npm install
+4. Depois execute: npm start
+5. Abra http://localhost:3000 no navegador.
+
+Para testar apenas o tema CSS, abra http://localhost:3000/teste-css.html.
+
+COMO FUNCIONA
+- server.js: servidor feito com Node.js e Express. Atende as rotas para listar, cadastrar e excluir obras.
+- public/index.html: formulario e tabela.
+- public/app.js: validacao dos campos e interacoes da pagina.
+- public/tema.css: tema CSS do trabalho.
+- public/teste-css.html: pagina independente para testar o tema CSS.
+
+OBSERVACAO
+Para manter o codigo mais simples, os registros ficam na memoria do servidor. Ao parar ou reiniciar o servidor, os registros cadastrados sao apagados.

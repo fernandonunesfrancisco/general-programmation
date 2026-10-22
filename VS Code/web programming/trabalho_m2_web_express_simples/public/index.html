@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Obras de Museu</title>
+    <link rel="stylesheet" href="tema.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Cadastro de Obras de Museu</h1>
+
+    <form id="formObra">
+        <p>
+            <label for="nome">Nome da obra:</label><br>
+            <input type="text" id="nome" maxlength="100">
+        </p>
+        <p>
+            <label for="autor">Autor:</label><br>
+            <input type="text" id="autor" maxlength="100">
+        </p>
+        <p>
+            <label for="ano">Ano da obra:</label><br>
+            <input type="text" id="ano" maxlength="4">
+        </p>
+        <p>
+            <label for="periodo">Período:</label><br>
+            <select id="periodo">
+                <option value="">Selecione...</option>
+                <option value="d.C.">d.C.</option>
+                <option value="a.C.">a.C.</option>
+            </select>
+        </p>
+        <p>
+            <label for="tipo">Tipo:</label><br>
+            <select id="tipo">
+                <option value="">Selecione...</option>
+                <option value="Quadro">Quadro</option>
+                <option value="Escultura">Escultura</option>
+                <option value="Outro">Outro</option>
+            </select>
+        </p>
+        <p>
+            <label for="detalhamento">Detalhamento (opcional):</label><br>
+            <textarea id="detalhamento" maxlength="2000" rows="4"></textarea>
+        </p>
+
+        <ul id="mensagensErro"></ul>
+        <button type="submit">Registrar obra</button>
+    </form>
+
+    <h2>Obras registradas</h2>
+    <p>Clique numa linha para ver o detalhamento da obra.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome da obra</th>
+                <th>Autor</th>
+                <th>Ano</th>
+                <th>Período</th>
+                <th>Tipo</th>
+                <th>Exclusão</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaObras"></tbody>
+    </table>
+
+    <h3>Detalhamento</h3>
+    <p id="detalhamentoSelecionado">Nenhuma obra selecionada.</p>
+</body>
+</html>

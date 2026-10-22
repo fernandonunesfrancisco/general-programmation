@@ -1,0 +1,12 @@
+{
+  "name": "trabalho-m2-web",
+  "version": "1.0.0",
+  "description": "Trabalho M2 de Programacao Web com Node.js e Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

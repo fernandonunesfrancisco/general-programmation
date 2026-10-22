@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do Tema | Catalogus Operum</title>
+    <link rel="stylesheet" href="tema.css">
+</head>
+<body>
+    <header class="cabecalho-romano">
+        <div class="cabecalho-conteudo">
+            <img class="aquila" src="images/aquila-romana.png" alt="Escultura de uma águia imperial romana" width="100" height="100">
+            <p class="sobretitulo">TABULARIUM ARTIS · ROMA AETERNA</p>
+            <h1>Teste da biblioteca CSS</h1>
+            <p class="subtitulo">Demonstração dos estilos do catálogo.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="painel">
+            <h2>I · Campos de formulário</h2>
+            <p>
+                <label for="exemploTexto">Campo de texto:</label><br>
+                <input type="text" id="exemploTexto" value="Clique aqui para testar o foco">
+            </p>
+            <p>
+                <label for="exemploSelecao">Seleção:</label><br>
+                <select id="exemploSelecao">
+                    <option>Quadro</option>
+                    <option>Escultura</option>
+                    <option>Outro</option>
+                </select>
+            </p>
+            <p>
+                <label for="exemploTextoArea">Texto de várias linhas:</label><br>
+                <textarea id="exemploTextoArea" rows="3">Uma descrição de exemplo para testar o estilo da área de texto.</textarea>
+            </p>
+            <p>
+                <label for="exemploErro">Campo inválido de exemplo:</label><br>
+                <input type="text" id="exemploErro" class="erro" value="Este campo demonstra a borda de erro">
+            </p>
+            <button type="button">Botão de exemplo</button>
+        </section>
+
+        <section class="painel">
+            <h2>II · Tabela de exemplo</h2>
+            <table>
+                <thead>
+                    <tr><th>Obra</th><th>Autor</th><th>Tipo</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Mona Lisa</td><td>Leonardo da Vinci</td><td>Quadro</td></tr>
+                    <tr><td>David</td><td>Michelangelo</td><td>Escultura</td></tr>
+                    <tr><td>Exemplo de título bastante longo para testar a quebra automática de palavras</td><td>Autor de exemplo</td><td>Outro</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="rodape-romano">
+        <img src="images/estandarte-spqr.svg" alt="" aria-hidden="true" width="45" height="64">
+        <div>
+            <p class="assinatura">S · P · Q · R</p>
+            <p class="traducao">SENATUS POPULUSQUE ROMANUS</p>
+            <p class="rodape-nota">CATALOGUS OPERUM · MMXXVI</p>
+        </div>
+    </footer>
+</body>
+</html>

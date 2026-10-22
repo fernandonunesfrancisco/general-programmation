@@ -11,7 +11,7 @@ public class SerializationClass {
         File arq= new File(nameFile);
         try{
             arq.delete();
-            arq.createNewFile;
+            arq.createNewFile();
             ObjectOutputStream objOutput = new ObjectOutputStream(new FileOutputStream(arq));
             objOutput.writeObject(list);
             objOutput.close();
